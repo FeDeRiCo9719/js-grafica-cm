@@ -35,3 +35,6 @@ body {
     border: 1px solid;
     padding: 5px;
 }
+.changeColor {
+    background-color: coral;
+}

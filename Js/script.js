@@ -31,3 +31,10 @@ while ( NumCelle<1 || NumCelle>100 || isNaN(NumCelle) ) {
 var Cells = CreateCell(NumCelle);
 
 // 3. Al click su una cella dovrà essere mostrato con un alert il numero della cella e il suo background diventerà rosso
+var CELLA = document.getElementById("");
+CELLA.addEventListener ("click",
+    function() {
+        CELLA.classList.add("changeColor");
+    }
+);
+
