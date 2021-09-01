@@ -12,7 +12,7 @@ function CreateCell(num) {
     
     for ( var i = 1; i <= num; i++  ) {
         // selezionare l'elemento tramite id e inserire al suo interno del codice html
-        var cell = document.getElementById("Campo").innerHTML += `<div class="uno"></div>`
+        var cell = document.getElementById("Campo").innerHTML += `<div class="cella">${i}</div>`
     }
 
     return cell

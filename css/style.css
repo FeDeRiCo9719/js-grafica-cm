@@ -6,7 +6,9 @@
 }
 
 /*---------------------- COMMON ----------------------*/
-body {}
+body {
+    font-family: Arial;
+}
 
 .container {
     height: 100vh;
@@ -26,9 +28,10 @@ body {}
     align-content: flex-start;
 }
 
-.uno {
+.cella {
     background-color: burlywood;
     width: 70px;
     height: 70px;
     border: 1px solid;
+    padding: 5px;
 }
